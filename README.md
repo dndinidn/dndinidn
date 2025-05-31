@@ -1,16 +1,35 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hi I'm Dini</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      font-size: 2em;
+      background-color: #f9f9f9;
+      padding: 50px;
+    }
 
-<!--
-**dndinidn/dndinidn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    .typewriter {
+      display: inline-block;
+      border-right: 2px solid black;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3s steps(20), blink .75s step-end infinite;
+    }
 
-Here are some ideas to get you started:
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 12ch }
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  </style>
+</head>
+<body>
+  <div class="typewriter">Hi I'm Dini</div>
+</body>
+</html>
